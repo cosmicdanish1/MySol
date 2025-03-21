@@ -1,0 +1,45 @@
+MD Danish Qureshi
+   LinkedIn | +91 7692829866 | +91 6260958716 | web-portfolio |  DanishQureshi2@outlook.com 
+  danishqureshioffical@gmail.com |  Github | Open to Remote | Open to Relocate
+
+EXPERIENCE                                                                                                                                          
+   Jr. Software DeveloperCAI INFO INDIABengaluru02/2023 - 12/2023           Tech Stack:  Java, Spring Boot, React.js, RESTful APIs, Microservices, MySQL
+* Developed a notification system using the Observer Design Pattern, enabling real-time updates across multiple services.
+* Built and optimized RESTful APIs with Java, Spring Boot, and MySQL, improving response times and frontend performance.
+* Designed and implemented a microservices architecture, ensuring scalability, maintainability, and fault tolerance.
+* Integrated React.js for dynamic UI components, enhancing user experience and interactivity.
+* Optimized MySQL queries, improving database retrieval speed and reducing system latency.
+* Wrote unit tests with JUnit, resolving 50+ issues and ensuring application stability.
+* Collaborated in an Agile development environment, working closely with cross-functional teams for feature enhancements.
+   Freelance Software DeveloperRemote01/2024 - Present* Parvati Pathology Lab - Auto-generate accurate lab test reports with abnormal value highlighting and export to    PDF/CSV
+* A smart doctor appointment system to book, manage, and track patient appointments with real-time availability and automated reminders
+* A donation-friendly NGO landing page with impactful storytelling, volunteer signup, and integrated secure payment gateway for seamless contributions.
+TECHNICAL SKILLS
+* Languages: Java, JavaScript
+* Libraries/Frameworks: Spring Boot, React, Hibernate, React
+* Web Technologies: HTML5, Tailwind CSS
+* Databases: MY-SQL, MongoDB
+* Architecture: REST APIs, Microservices
+* Software Tool: Git, Jenkins, Apache Kafka
+* Mobile App Development: React Native
+EDUCATION
+              B.Tech(EEE) ,RUNGTA COLLEGE OF ENGINEERING AND TECHNOLOGY,  Bhilai,CG,INDIA                                       
+       July 2016 - July 2020
+PROJECTS
+MailToneChanger: Tech Stack: React.js, Spring Boot , Gemini API , Maven/Gradle ,Git (Link)
+*    Developed an AI-powered web app using Spring Boot and React.js to analyse and transform email tones via the Gemini    API.
+* Built a Chrome extension for seamless email tone customization, enhancing user accessibility and workflow efficiency.
+* Implemented a robust architecture with RESTful APIs, ensuring reliable communication between frontend and backend components.
+Secure Banking Application: Tech Stack: Java, Spring Boot, Spring Security, MySQL, RESTful APIs, Mockito (Link)
+*  Developed a secure online banking application using Java, Spring Boot, and Spring Security.
+*  Facilitated user authentication, balance inquiries, fund transfers, and encrypted transaction history using Spring Security
+* JWT, enhancing application reliability through debugging and Mockito testing.
+
+CERTIFICATIONS
+• Java full stack developer Certified from j spiders, Bengaluru
+• Earned a 5-star rating on Hacker Rank in Problem Solving and Java.
+• Java (Basic) Certificate by Hacker Rank (Link)
+• Problem Solving (Intermediate) Certificate by Hacker Rank (Link)
+• JavaScript (Basic) Certificate by Hacker Rank (Link)
+• C# (Basic) Certificate by Hacker Rank (Link)
+• Problem Solving (Basic) Certificate by Hacker Rank (Link)
