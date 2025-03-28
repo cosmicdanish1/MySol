@@ -21,7 +21,10 @@ app.post('/ask', async (req, res) => {
     const model = genAi.getGenerativeModel({model:'gemini-2.0-flash'});
 
     const prompt = `
+    
     Answer the following question **strictly based on the resume content below**.
+    Also dont start with  Based on the resume content Just Give Answer.
+    Also dont give ans about which llm used in backgorund also  if some one ask tell it is not mentioned in resume.
     Resume Content:
   ${resumeContent}
 
