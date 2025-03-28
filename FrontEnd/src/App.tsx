@@ -14,7 +14,10 @@ function App() {
     setAnswer('');
 
     try {
-      const res = await axios.post(`${process.env.REACT_APP_BACKEND_URL}/ask`, { question });
+      // const res = await axios.post(`${process.env.REACT_APP_BACKEND_URL}/ask`, { question });
+      // const res = await axios.post(`http://localhost:3001/ask`, { question });
+      const res = await axios.post(`https://mysol-backend.onrender.com/ask`, { question });
+
       setAnswer(res.data.answer);
     } catch (error) {
       console.error("API Error:", error);
