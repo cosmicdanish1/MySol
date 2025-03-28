@@ -17,7 +17,7 @@ function App() {
     setAnswer(''); // Clear previous answer
 
     try {
-      const res = await axios.post('http://localhost:3001/ask', { question });
+      const res = await axios.post('https://mysol-backend.onrender.com', { question });
       setAnswer(res.data.answer);
     } catch (error) {
       setAnswer("Failed to get a response. Please try again.");
