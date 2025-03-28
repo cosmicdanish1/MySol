@@ -1,7 +1,5 @@
 import { useState } from 'react';
 import axios from 'axios';
-
-
 import { AuroraBackground } from "./components/ui/aurora-background";
 import { ContainerTextFlip } from "./components/ui/container-text-flip";
 
@@ -12,14 +10,14 @@ function App() {
 
   const askQuestion = async () => {
     if (!question.trim()) return;
-
     setLoading(true);
-    setAnswer(''); // Clear previous answer
+    setAnswer('');
 
     try {
-      const res = await axios.post('https://mysol-backend.onrender.com', { question });
+      const res = await axios.post(`${process.env.REACT_APP_BACKEND_URL}/ask`, { question });
       setAnswer(res.data.answer);
     } catch (error) {
+      console.error("API Error:", error);
       setAnswer("Failed to get a response. Please try again.");
     } finally {
       setLoading(false);
