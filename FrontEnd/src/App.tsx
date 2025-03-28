@@ -33,11 +33,11 @@ function App() {
         <AuroraBackground children={undefined} />
       </div>
 
-      <h1 className="flex justify-center text-5xl items-center font-bold mb-20 mt-25">
+      <h1 className="flex justify-center text-5xl items-center font-bold mb-20 mt-25 text-white dark:text-white  sm:text-white md:text-black lg:text-black">
         Talk to{" "}
         <ContainerTextFlip
           words={["MySol", "Danish", "MY AI"]}
-          interval={4000}
+          interval={5000}
           className="text-center text-5xl font-bold text-black md:text-7xl dark:text-white"
         />
       </h1>
@@ -45,7 +45,7 @@ function App() {
       <textarea
         value={question}
         onChange={(e) => setQuestion(e.target.value)}
-        className="w-full border p-2"
+        className="w-full border p-2 bg-white md:bg-transparent lg:bg-transparent 2xl:bg-transparent"
         placeholder="Ask something related to the resume..."
       />
 
