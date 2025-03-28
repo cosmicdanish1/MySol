@@ -33,7 +33,7 @@ function App() {
         <AuroraBackground children={undefined} />
       </div>
 
-      <h1 className="flex justify-center text-5xl items-center font-bold mb-20 mt-25 text-white dark:text-white  sm:text-white md:text-black lg:text-black">
+      <h1 className="flex justify-center text-5xl items-center font-bold mb-20 mt-25  text-white dark:text-white  sm:text-white md:text-black lg:text-black">
         Talk to{" "}
         <ContainerTextFlip
           words={["MySol", "Danish", "MY AI"]}
