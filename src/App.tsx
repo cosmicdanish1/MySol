@@ -203,12 +203,12 @@ function App() {
         {/* Chat Header */}
         <div className="flex items-center justify-between px-6 py-4 border-b border-white/10 bg-transparent">
           <div className="flex flex-col">
-            <h1 className="flex items-center gap-2 text-2xl font-black text-gray-900 dark:text-white leading-none">
+            <h1 className="flex items-center gap-1.5 text-xl md:text-2xl font-black text-gray-900 dark:text-white leading-none">
               Talk to{" "}
               <ContainerTextFlip
                 words={["MySol", "Danish", "MY AI"]}
                 interval={4000}
-                className="text-2xl font-black text-indigo-600 dark:text-indigo-400"
+                className="text-lg md:text-2xl font-black text-indigo-600 dark:text-indigo-400"
               />
             </h1>
             <span className="text-xs font-semibold text-gray-700 dark:text-gray-300 mt-1 flex items-center gap-1.5">
