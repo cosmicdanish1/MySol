@@ -20,7 +20,7 @@ export const AuroraBackground = ({
     >
       {/* Mesh Gradient Background Layer (Hardware-accelerated via transform-gpu) */}
       <div className="absolute inset-0 -z-20 transform-gpu pointer-events-none opacity-50 dark:opacity-40">
-        <div className="absolute top-[-50%] left-[-50%] w-[200%] h-[200%] bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-indigo-300 via-sky-200 to-purple-200 dark:from-indigo-900 dark:via-zinc-950 dark:to-purple-950 md:animate-slow-spin transform-gpu"></div>
+        <div className="absolute top-[-50%] left-[-50%] w-[200%] h-[200%] bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-indigo-300 via-sky-200 to-purple-200 dark:from-indigo-900 dark:via-zinc-950 dark:to-purple-950 animate-slow-spin transform-gpu"></div>
       </div>
       
       {/* Radial soft ambient overlay */}
