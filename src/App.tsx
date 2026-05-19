@@ -196,8 +196,8 @@ function App() {
         
         {/* Animated Liquid Morphing Blobs */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none -z-10 rounded-3xl">
-          <div className="absolute top-1/4 left-1/4 w-80 h-80 bg-indigo-400/20 dark:bg-indigo-500/15 blur-3xl animate-liquid-1"></div>
-          <div className="absolute bottom-1/4 right-1/4 w-80 h-80 bg-pink-400/20 dark:bg-purple-500/15 blur-3xl animate-liquid-2"></div>
+          <div className="absolute top-1/4 left-1/4 w-80 h-80 bg-indigo-400/20 dark:bg-indigo-500/15 blur-3xl animate-liquid-1 transform-gpu"></div>
+          <div className="absolute bottom-1/4 right-1/4 w-80 h-80 bg-pink-400/20 dark:bg-purple-500/15 blur-3xl animate-liquid-2 transform-gpu"></div>
         </div>
         
         {/* Chat Header */}

@@ -130,3 +130,20 @@
     background: rgba(99, 102, 241, 0.45);
 }
 
+/* Hardware-Accelerated Slow Spin for Jitter-Free Mesh Gradients */
+@keyframes slow-spin {
+    0% {
+        transform: translate3d(0, 0, 0) rotate(0deg) scale(1);
+    }
+    50% {
+        transform: translate3d(0, 0, 0) rotate(180deg) scale(1.12);
+    }
+    100% {
+        transform: translate3d(0, 0, 0) rotate(360deg) scale(1);
+    }
+}
+
+.animate-slow-spin {
+    animation: slow-spin 30s infinite linear;
+}
+
