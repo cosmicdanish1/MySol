@@ -192,10 +192,10 @@ function App() {
         <AuroraBackground children={undefined} />
       </div>
 
-      <div className="w-full max-w-2xl flex flex-col h-[85vh] md:h-[80vh] rounded-3xl overflow-hidden transition-all duration-500 relative bg-white/10 dark:bg-black/20 backdrop-blur-2xl border border-white/20 dark:border-white/5 shadow-[0_8px_32px_0_rgba(31,38,135,0.15)]">
+      <div className="w-full max-w-2xl flex flex-col h-[85vh] md:h-[80vh] rounded-3xl overflow-hidden transition-all duration-500 relative bg-slate-50/95 dark:bg-zinc-900/95 md:bg-white/10 md:dark:bg-black/20 backdrop-blur-none md:backdrop-blur-2xl border border-gray-200/50 dark:border-zinc-800 md:border-white/20 md:dark:border-white/5 shadow-[0_8px_32px_0_rgba(31,38,135,0.08)]">
         
         {/* Animated Liquid Morphing Blobs */}
-        <div className="absolute inset-0 overflow-hidden pointer-events-none -z-10 rounded-3xl">
+        <div className="absolute inset-0 overflow-hidden pointer-events-none -z-10 rounded-3xl hidden md:block">
           <div className="absolute top-1/4 left-1/4 w-80 h-80 bg-indigo-400/20 dark:bg-indigo-500/15 blur-3xl animate-liquid-1 transform-gpu"></div>
           <div className="absolute bottom-1/4 right-1/4 w-80 h-80 bg-pink-400/20 dark:bg-purple-500/15 blur-3xl animate-liquid-2 transform-gpu"></div>
         </div>
